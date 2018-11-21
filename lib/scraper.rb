@@ -58,7 +58,7 @@ class Scraper
         profile[:blog] = socials[3]
       end
       profile
-      binding.pry
+      #binding.pry
   end
 end
-Scraper.scrape_profile_page('./fixtures/student-site/students/alvin-lu.html')
+#Scraper.scrape_profile_page('./fixtures/student-site/students/alvin-lu.html')
